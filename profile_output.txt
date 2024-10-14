@@ -1,0 +1,20 @@
+Mon Oct 14 14:37:45 2024    profile_output
+
+         696021780 function calls (661196400 primitive calls) in 439.544 seconds
+
+   Ordered by: cumulative time
+   List reduced from 394 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.005    0.005  439.541  439.541 <string>:1(<module>)
+        1    0.002    0.002  439.537  439.537 C:\Users\aalbano\AppData\Local\Temp\ipykernel_19272\3055106732.py:4(profile_code)
+        1    0.597    0.597  438.043  438.043 C:\Users\aalbano\AppData\Local\Temp\ipykernel_19272\3055106732.py:8(sparse_spike_inverting)
+   131072    0.407    0.000  436.664    0.003 c:\Users\aalbano\AppData\Local\Programs\Python\Python312\Lib\site-packages\pylops\optimization\sparsity.py:20(irls)
+   131072    0.376    0.000  433.293    0.003 c:\Users\aalbano\AppData\Local\Programs\Python\Python312\Lib\site-packages\pylops\optimization\cls_sparsity.py:578(solve)
+2228224/262144    2.388    0.000  432.820    0.002 c:\Users\aalbano\AppData\Local\Programs\Python\Python312\Lib\site-packages\pylops\optimization\basesolver.py:87(wrapper)
+   131072    2.650    0.000  432.339    0.003 c:\Users\aalbano\AppData\Local\Programs\Python\Python312\Lib\site-packages\pylops\optimization\cls_sparsity.py:502(run)
+   655360    1.687    0.000  423.585    0.001 c:\Users\aalbano\AppData\Local\Programs\Python\Python312\Lib\site-packages\pylops\optimization\cls_sparsity.py:468(step)
+   655360    4.199    0.000  411.605    0.001 c:\Users\aalbano\AppData\Local\Programs\Python\Python312\Lib\site-packages\pylops\optimization\cls_sparsity.py:389(_step_data)
+   655360    1.657    0.000  401.233    0.001 c:\Users\aalbano\AppData\Local\Programs\Python\Python312\Lib\site-packages\pylops\optimization\leastsquares.py:124(regularized_inversion)
+
+
