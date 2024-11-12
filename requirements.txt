@@ -5,6 +5,6 @@ pylops
 scipy
 scienceplots
 scikit-learn
-PyQt5
+dask
 tqdm
 seaborn
